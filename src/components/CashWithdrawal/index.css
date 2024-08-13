@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cashWithdrawalCard-container {
+    background-color: #150b3e;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .accountantName-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .intialName {
+    background-color: #c7d2fe;
+    border-radius: 40px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 15px;
+    color: #7c3aed;
+  }
+  
+  .fullName {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 600;
+    color: #d4d2db;
+    margin-left: 10px;
+    padding-top: 9px;
+  }
+  
+  .balanceAmount-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .balance {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #382f5a;
+    margin-right: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .Rupees {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: #d4d2db;
+  }
+  
+  .text-rupees {
+    color: #585076;
+    font-size: 10px;
+  }
+  
+  .withdrawText {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    color: #d4d2db;
+  }
+  
+  .ChooseSumText {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 700;
+    color: #585076;
+  }
+  
+  .items-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
